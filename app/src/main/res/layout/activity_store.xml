@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activities.StoreActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_store"
+        app:title="Vui lòng chọn cửa hàng"
+        app:titleTextColor="@color/colorWhite"
+        android:background="@color/colorBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_store"
+        android:background="@color/colorWhite"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
